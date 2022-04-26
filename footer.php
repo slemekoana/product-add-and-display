@@ -1,5 +1,13 @@
 
     <footer class="section">
-        <div class="center"> Copyright 2022 Selaelo Lemekoana</div>
+        <!-- <nav class="navbar navbar-light bg-light">
+            <div class="footer-copyright text-center py-3">© 2022 Copyright:
+                <a> Selaelo Lemekoana</a>
+            </div>
+        </nav> -->
+        <div class="footer-copyright text-center py-3">© 2022 Copyright:
+            <a > Selaelo Lemekoana</a>
+        </div> 
     </footer>
+
 </body>
