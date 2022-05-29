@@ -68,3 +68,7 @@ div a{
   text-decoration: none;
   font-size: 25px; 
 }
+
+div.red-text{
+  color: red;
+}
