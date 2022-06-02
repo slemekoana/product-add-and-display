@@ -45,7 +45,7 @@ input[type=submit]:hover {
   padding: 10px 10px;
 }
 .fixed-header{
-    top: 0; 
+  top: 0; 
 }
 
 .fixed-footer{
@@ -72,3 +72,55 @@ div a{
 div.red-text{
   color: red;
 }
+
+
+/* .grid-container {
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+.grid-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 300px;
+  margin: 100px 50px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+} */
+
+/* .grid-container {
+  padding: 20px 40px;
+  /* max-width: 700px;  */
+  /* margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  margin-left: 180px;
+  display: grid;
+  grid-template-columns: 10;
+  grid-template-rows: 50% auto; */
+  /* grid-auto-flow: row; */
+  /* height: 80px; */
+  /* gap: 10px 20px; */
+/* }  */
+
+.grid-container {
+  border: 4px solid yellowgreen;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 10;
+  grid-template-rows: 50% auto; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 110px; 
+  margin-right: 80px; 
+  margin-left:50px ;
+  /* margin-bottom: 80px; */
+}
+
+.grid-item {
+  min-width: 200px; min-height: 200px;
+  border: 4px solid sandybrown;
+  text-align: center;
+}
+

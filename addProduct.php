@@ -1,9 +1,9 @@
 <?php
-    // $conn = mysqli_connect('localhost', 'root', '', 'product_management');
+    $conn = mysqli_connect('localhost', 'root', '', 'product_management');
 
-    // if(!$conn) {
-    //     echo 'Connection error: ' . mysqli_connect_error();
-    // } 
+    if(!$conn) {
+        echo 'Connection error: ' . mysqli_connect_error();
+    } 
 
     // include('db_connection.php');
 
@@ -114,6 +114,7 @@
             $length = mysqli_real_escape_string($conn, $_POST['length']);
             $width = mysqli_real_escape_string($conn, $_POST['width']);
             $weight = mysqli_real_escape_string($conn, $_POST['weight']);
+            
 
             $sql = "INSERT INTO products(sku,name,price,productType,size,height,length,width,weight) VALUES('$sku', '$name', '$price', '$productType', '$size', '$height', '$length', '$width', '$weight')";
             // echo "Form is valid";

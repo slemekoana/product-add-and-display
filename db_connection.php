@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
     $conn = mysqli_connect('localhost', 'selaelo', 'productManager', 'product_management');
 
@@ -7,4 +7,4 @@
     } 
 
     
-?>
+?> -->
